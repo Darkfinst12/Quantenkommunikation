@@ -1,0 +1,61 @@
+🔐 Beispiel: Schlüsselerzeugung mit dem BB84-Protokoll (5 Qubits)
+
+In diesem Beispiel wollen Alice und Bob einen gemeinsamen geheimen Schlüssel erzeugen.
+Sie verwenden 5 Qubits und führen folgende Schritte durch:
+
+1. Alice wählt zufällig:
+   - Eine Bitfolge (0 oder 1)
+   - Eine Basis (z. B. + für Standardbasis, × für Diagonalbasis)
+
+Beispiel:
+Qubit | Alice's Bit | Alice's Basis
+-----------------------------------
+  1   |      1      |       +
+  2   |      0      |       ×
+  3   |      1      |       +
+  4   |      0      |       ×
+  5   |      1      |       +
+
+2. Alice sendet die Qubits an Bob.
+
+3. Bob misst jedes Qubit in einer zufällig gewählten Basis:
+
+Qubit | Bob's Basis | Bob's Messergebnis
+----------------------------------------
+  1   |      +      |         1
+  2   |      +      |         ?
+  3   |      ×      |         ?
+  4   |      ×      |         0
+  5   |      +      |         1
+
+Hinweis:
+- Wenn Bob die **gleiche Basis** wie Alice verwendet, ist sein Messergebnis **zuverlässig**.
+- Bei **unterschiedlicher Basis** ist das Ergebnis **zufällig**.
+
+4. Alice und Bob vergleichen öffentlich die verwendeten Basen (nicht die Bits!):
+
+Qubit | Alice's Basis | Bob's Basis | Behalten?
+-----------------------------------------------
+  1   |       +        |      +      |   ✅
+  2   |       ×        |      +      |   ❌
+  3   |       +        |      ×      |   ❌
+  4   |       ×        |      ×      |   ✅
+  5   |       +        |      +      |   ✅
+
+5. Nur die Qubits, bei denen die Basen übereinstimmen, werden für den Schlüssel verwendet.
+
+✅ Gemeinsamer Schlüssel (aus Qubit 1, 4 und 5):
+
+Alice: 1 0 1  
+Bob:   1 0 1  → ✔️ stimmen überein
+
+🔑 Gemeinsamer geheimer Schlüssel: **101**
+
+6. Sicherheit:
+- Wenn ein Angreifer (Eve) versucht hätte, eines der Qubits zu messen, ohne die Basis zu kennen, hätte sie den Zustand zufällig verändert.
+- Dadurch wären bei Bob fehlerhafte Messwerte entstanden → das wäre bei einem Vergleich aufgefallen.
+
+📌 Fazit:
+- Nur Qubits mit übereinstimmender Basis werden verwendet.
+- Die Quantenphysik sorgt dafür, dass ein Abhörversuch Spuren hinterlässt.
+- So entsteht ein abhörsicherer, gemeinsam geheimer Schlüssel.

@@ -68,3 +68,316 @@
 		\tableofcontents[currentsection]
 	\end{frame}
 }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% 4. Custom Commands
+%
+\usepackage{pdfpages}
+\newcommand{\imgbox}[7]{%
+	\begin{wrapfigure}{#1}{#2}%
+		\centering%
+		\vspace{-0.5em}%
+		\includegraphics[width=#3]{figures/#4}%
+		\vspace{-1.0em}%
+		\setcounter{figure}{\thethmhelper}%
+		\addtocounter{thmhelper}{1}%
+		\caption[#6]{#7}\label{fig:#5}%
+		\vspace{-0.5em}%
+	\end{wrapfigure}%
+}%
+\newcommand{\img}[5]{%
+	\begin{figure}[htbp]%
+		%% Eine normale Abbildung
+		%%  #1 Breite der Abbildung
+		%%  #2 Abbildung
+		%%  #3 Label
+		%%  #4 TOC-Beschriftung
+		%%  #5 Beschriftung
+		%%
+		%% (Falls es komisch aussieht, setzen Sie
+		%%  nur „t“ oder „tb“ statt „htbp“)
+		\vspace{2.5em}%
+		\centering%
+		\includegraphics[width=#1]{figures/#2}
+		\vspace{-0.5em}%
+		\setcounter{figure}{\thethmhelper}%
+		\addtocounter{thmhelper}{1}%
+		\caption[#4]{#5}\label{fig:#3}%
+		\vspace{1.5em}%
+	\end{figure}%
+}%
+\newcommand\imgAB[9]{%
+	%% LaTeX-Hexerei mit \imgABcontinued
+	%% (wegen mehr als 9 Parametern)
+	\def\tmpvalone{#1}%
+	\def\tmpvaltwo{#2}%
+	\def\tmpvalthr{#3}%
+	\def\tmpvalfou{#4}%
+	\def\tmpvalfiv{#5}%
+	\def\tmpvalsix{#6}%
+	\def\tmpvalsev{#7}%
+	\def\tmpvaleig{#8}%
+	\def\tmpvalnin{#9}%
+	\imgABcontinued%
+}%
+\newcommand{\imgABcontinued}[2]{%
+	\begin{figure}[htbp]%
+		%% zwei Abbildungen nebeneinander
+		%%  #1 Label des Containers
+		%%  #2 TOC-Beschriftung des Containers
+		%%  #3 Beschriftung des Containers
+		%%  #4 Breite des linken Containers (A)
+		%%  #5 Breite der Abbildung in A
+		%%  #6 Abbildung in A
+		%%  #7 Beschriftung in A
+		%%  #8 Breite des rechten Containers (B)
+		%%  #9 Breite der Abbildung in B
+		%% #10 Abbildung in B
+		%% #11 Beschriftung in B
+		%%
+		%% (Falls es komisch aussieht, setzen Sie
+		%%  nur „t“ oder „tb“ statt „htbp“)
+		\vspace{2.5em}%
+		\centering%
+		\begin{subfigure}[t]{\tmpvalfou\textwidth}%
+			\centering%
+			\includegraphics[width=\tmpvalfiv]{figures/\tmpvalsix}%
+			\caption{\tmpvalsev}\label{fig:\tmpvalone-A}%
+		\end{subfigure}%
+		\hfill~%
+		\begin{subfigure}[t]{\tmpvaleig\textwidth}%
+			\centering%
+			\includegraphics[width=\tmpvalnin]{figures/#1}%
+			\caption{#2}\label{fig:\tmpvalone-B}%
+		\end{subfigure}%
+		\vspace{-0.5em}%
+		\addtocounter{thmhelper}{1}%
+		\setcounter{figure}{\thethmhelper}%
+		\caption[\tmpvaltwo]{\tmpvalthr}\label{fig:\tmpvalone}%
+		\vspace{1.5em}%
+	\end{figure}%
+}%
+\newcommand{\imgABstack}[9]{%
+	\begin{figure}[htbp]%
+		%% zwei Abbildungen untereinander
+		%% #1 Label des Containers
+		%% #2 TOC-Beschriftung des Containers
+		%% #3 Beschriftung des Containers
+		%% #4 Breite der oberen Abbildung (A)
+		%% #5 obere Abbildung (A)
+		%% #6 Beschriftung der oberen Abbildung (A)
+		%% #7 Breite der unteren Abbildung (B)
+		%% #8 untere Abbildung (B)
+		%% #9 Beschriftung der unteren Abbildung (B)
+		%%
+		%% (Falls es komisch aussieht, setzen Sie
+		%%  nur „t“ oder „tb“ statt „htbp“)
+		\vspace{2.5em}%
+		\centering%
+		\begin{subfigure}[t]{\textwidth}%
+			\centering%
+			\includegraphics[width=#4]{figures/#5}%
+			\caption{#6}\label{fig:#1-A}%
+		\end{subfigure}%
+		\\%
+		\vspace{2em}%
+		\begin{subfigure}[t]{\textwidth}%
+			\centering%
+			\includegraphics[width=#7]{figures/#8}%
+			\caption{#9}\label{fig:#1-B}%
+		\end{subfigure}%
+		\vspace{-0.5em}%
+		\addtocounter{thmhelper}{1}%
+		\setcounter{figure}{\thethmhelper}%
+		\caption[#2]{#3}\label{fig:#1}%
+		\vspace{1.5em}%
+	\end{figure}%
+}%
+\newcommand\imgABC[9]{%
+	%% LaTeX-Hexerei mit \imgABCcontinued
+	%% (wegen mehr als 9 Parametern)
+	\def\tmpvalone{#1}%
+	\def\tmpvaltwo{#2}%
+	\def\tmpvalthr{#3}%
+	\def\tmpvalfou{#4}%
+	\def\tmpvalfiv{#5}%
+	\def\tmpvalsix{#6}%
+	\def\tmpvalsev{#7}%
+	\def\tmpvaleig{#8}%
+	\def\tmpvalnin{#9}%
+	\imgABCcontinued%
+}%
+\newcommand{\imgABCcontinued}[3]{%
+	\begin{figure}[htbp]%
+		%% drei Abbildungen nebeneinander
+		%% #1 Label des Containers
+		%% #2 TOC-Beschriftung des Containers
+		%% #3 Beschriftung des Containers
+		%% #4 Breite der linken Abbildung (A)
+		%% #5 linke Abbildung (A)
+		%% #6 Beschriftung der linken Abbildung (A)
+		%% #7 Breite der mittleren Abbildung (B)
+		%% #8 mittlere Abbildung (B)
+		%% #9 Beschriftung der mittleren Abbildung (B)
+		%% #10 Breite der rechten Abbildung (C)
+		%% #11 rechte Abbildung (C)
+		%% #12 Beschriftung der rechten Abbildung (C)
+		%%
+		%% (Falls es komisch aussieht, setzen Sie
+		%%  nur „t“ oder „tb“ statt „htbp“)
+		\vspace{2.5em}%
+		\centering%
+		\begin{subfigure}[t]{0.3\textwidth}%
+			\centering%
+			\includegraphics[width=\tmpvalfou]{figures/\tmpvalfiv}%
+			\caption{\tmpvalsix}\label{fig:\tmpvalone-A}%
+		\end{subfigure}%
+		\hfill~%
+		\begin{subfigure}[t]{0.3\textwidth}%
+			\centering%
+			\includegraphics[width=\tmpvalsev]{figures/\tmpvaleig}%
+			\caption{\tmpvalnin}\label{fig:\tmpvalone-B}%
+		\end{subfigure}%
+		\hfill~%
+		\begin{subfigure}[t]{0.3\textwidth}%
+			\centering%
+			\includegraphics[width=#1]{figures/#2}%
+			\caption{#3}\label{fig:\tmpvalone-C}%
+		\end{subfigure}%
+		\vspace{-0.5em}%
+		\addtocounter{thmhelper}{1}%
+		\setcounter{figure}{\thethmhelper}%
+		\caption[\tmpvaltwo]{\tmpvalthr}\label{fig:\tmpvalone}%
+		\vspace{1.5em}%
+	\end{figure}%
+}%
+\newcommand\imgABCstack[9]{%
+	%% LaTeX-Hexerei mit \imgABCcontinued
+	%% (wegen mehr als 9 Parametern)
+	\def\tmpvalone{#1}%
+	\def\tmpvaltwo{#2}%
+	\def\tmpvalthr{#3}%
+	\def\tmpvalfou{#4}%
+	\def\tmpvalfiv{#5}%
+	\def\tmpvalsix{#6}%
+	\def\tmpvalsev{#7}%
+	\def\tmpvaleig{#8}%
+	\def\tmpvalnin{#9}%
+	\imgABCcontinued%
+}%
+\newcommand{\imgABCstackcontinued}[3]{%
+	\begin{figure}[htbp]%
+		%% drei Abbildungen untereinander
+		%% #1 Label des Containers
+		%% #2 TOC-Beschriftung des Containers
+		%% #3 Beschriftung des Containers
+		%% #4 Breite der oberen Abbildung (A)
+		%% #5 obere Abbildung (A)
+		%% #6 Beschriftung der oberen Abbildung (A)
+		%% #7 Breite der mittleren Abbildung (B)
+		%% #8 mittlere Abbildung (B)
+		%% #9 Beschriftung der mittleren Abbildung (B)
+		%% #10 Breite der unteren Abbildung (C)
+		%% #11 untere Abbildung (C)
+		%% #12 Beschriftung der unteren Abbildung (C)
+		%%
+		%% (Falls es komisch aussieht, setzen Sie
+		%%  nur „t“ oder „tb“ statt „htbp“)
+		\vspace{2.5em}%
+		\centering%
+		\begin{subfigure}[t]{\textwidth}%
+			\centering%
+			\includegraphics[width=\tmpvalfou]{figures/\tmpvalfiv}%
+			\caption{\tmpvalsix}\label{fig:\tmpvalone-A}%
+		\end{subfigure}%
+		\\%
+		\vspace{2em}%
+		\begin{subfigure}[t]{\textwidth}%
+			\centering%
+			\includegraphics[width=\tmpvalsev]{figures/\tmpvaleig}%
+			\caption{\tmpvalnin}\label{fig:\tmpvalone-B}%
+		\end{subfigure}%
+		\\%
+		\vspace{2em}%
+		\begin{subfigure}[t]{\textwidth}%
+			\centering%
+			\includegraphics[width=#1]{figures/#2}%
+			\caption{#3}\label{fig:\tmpvalone-C}%
+		\end{subfigure}%
+		\vspace{-0.5em}%
+		\addtocounter{thmhelper}{1}%
+		\setcounter{figure}{\thethmhelper}%
+		\caption[\tmpvaltwo]{\tmpvalthr}\label{fig:\tmpvalone}%
+		\vspace{1.5em}%
+	\end{figure}%
+}%
+\newcommand\imgABCD[9]{%
+	%% LaTeX-Hexerei mit \imgABCcontinued
+	%% (wegen mehr als 9 Parametern)
+	\def\tmpvalone{#1}%
+	\def\tmpvaltwo{#2}%
+	\def\tmpvalthr{#3}%
+	\def\tmpvalfou{#4}%
+	\def\tmpvalfiv{#5}%
+	\def\tmpvalsix{#6}%
+	\def\tmpvalsev{#7}%
+	\def\tmpvaleig{#8}%
+	\def\tmpvalnin{#9}%
+	\imgABCDcontinued%
+}%
+\newcommand{\imgABCDcontinued}[6]{%
+	\begin{figure}[htbp]%
+		%% vier Abbildungen in 2x2-Anordnung (Spalten je 50%)
+		%% #1 Label des Containers
+		%% #2 TOC-Beschriftung des Containers
+		%% #3 Beschriftung des Containers
+		%% #4 Breite der oberen, linken Abbildung (A)
+		%% #5 obere, linke Abbildung (A)
+		%% #6 Beschriftung der oberen, linken Abbildung (A)
+		%% #7 Breite der oberen, rechten Abbildung (B)
+		%% #8 obere, rechte Abbildung (B)
+		%% #9 Beschriftung der oberen, rechten Abbildung (B)
+		%% #10 Breite der unteren, linken Abbildung (C)
+		%% #11 untere, linke Abbildung (C)
+		%% #12 Beschriftung der unteren, linken Abbildung (C)
+		%% #13 Breite der unteren, rechten Abbildung (D)
+		%% #14 untere, rechten Abbildung (D)
+		%% #15 Beschriftung der unteren, rechten Abbildung (D)
+		%%
+		%% (Falls es komisch aussieht, setzen Sie
+		%%  nur „t“ oder „tb“ statt „htbp“)
+		\vspace{2.5em}%
+		\centering%
+		\begin{subfigure}[t]{.45\textwidth}%
+			\centering%
+			\includegraphics[width=\tmpvalfou]{figures/\tmpvalfiv}%
+			\caption{\tmpvalsix}\label{fig:\tmpvalone-A}%
+		\end{subfigure}%
+		\hfill~%
+		\begin{subfigure}[t]{.45\textwidth}%
+			\centering%
+			\includegraphics[width=\tmpvalsev]{figures/\tmpvaleig}%
+			\caption{\tmpvalnin}\label{fig:\tmpvalone-B}%
+		\end{subfigure}%
+		\\%
+		\vspace{2em}%
+		\begin{subfigure}[t]{.45\textwidth}%
+			\centering%
+			\includegraphics[width=#1]{figures/#2}%
+			\caption{#3}\label{fig:\tmpvalone-C}%
+		\end{subfigure}%
+		\hfill~%
+		\begin{subfigure}[t]{.45\textwidth}%
+			\centering%
+			\includegraphics[width=#4]{figures/#5}%
+			\caption{#6}\label{fig:\tmpvalone-D}%
+		\end{subfigure}%
+		\vspace{-0.5em}%
+		\addtocounter{thmhelper}{1}%
+		\setcounter{figure}{\thethmhelper}%
+		\caption[\tmpvaltwo]{\tmpvalthr}\label{fig:\tmpvalone}%
+		\vspace{1.5em}%
+	\end{figure}%
+}%

@@ -1,8 +1,82 @@
 \section{Was ist Quantenmechanik?}
-\begin{frame}[allowframebreaks]
-	
+\begin{frame}
+	\begin{theorem}
+		Ein Bereich der Physik, welcher die Eigenschaften und Wechselwirkungen von Materie und Energie auf der Skala von Atomen und subatomaren Partikeln beschreibt.
+	\end{theorem}
 \end{frame}
 
-\begin{frame}{Animated GIF Example}
-	\animategraphics[autoplay,loop,width=0.5\linewidth]{10}{figures/frames/test/frame-}{0}{5}
+\begin{frame}
+	\frametitle{Mathematische Grundlagen}
+	\begin{block}{Schrödinger-Gleichung}
+		Eine der grundlegenden Gleichungen der Quantenmechanik, die die zeitliche Veränderung der Quantenzustände eines Systems beschreibt.
+	\end{block}
+	\pause
+	\begin{alertblock}{Mathematische Formulierung}
+		\[i \hbar \frac{\partial}{\partial t} \Psi(x,t) = \hat{H} \Psi(x,t)\]\\
+		$i$: Imagin{\"a}re Einheit; $\Psi$: Wellenfunktion des Teilchens\\
+		$\hbar$. Reduzierte Planck-Konstante; $\hat{H}$: Hamiltonoperator
+	\end{alertblock}
 \end{frame}
+
+\begin{frame}
+	\frametitle{Superposition \& Qubits}
+	\begin{columns}
+		\begin{column}{0.48\linewidth}
+%			\justifying
+			Klassisches Bit: klar definierter Zustand \textrightarrow { }0 oder 1\\
+			\vspace{0.5em}
+			Qubit: kann in Superposition existieren (Schr{\"o}dingers Katze)
+			$|0\rangle{\text{ }}\&{\text{ }}|1\rangle$\\
+			\vspace{0.5em}
+			Mehrere Qubits: $2^n$ Zust{\"a}nde gleichzeitig\\
+			\vspace{0.5em}
+			Superposition zerf{\"a}llt: Qubit f{\"a}llt auf $|0\rangle\text{ oder }|1\rangle$
+		\end{column}
+		\begin{column}{0.48\linewidth}
+			\img{0.85\linewidth}{Kommunikation/superposition_schroedinger}{quantum:schroedinger_cat}{Visualisierung von Schr{\"o}dingers Katze}{Visualisierung von Schr{\"o}dingers Katze}
+%			\includegraphics[scale=0.23]{figures/Kommunikation/superposition_schroedinger}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Bloch-Kugel}
+	\begin{columns}
+		\begin{column}{0.6\linewidth}
+			Grafische Darstellung eines Qubit Zustandes\\
+			\vspace{0.5em}
+			Jeder Punkt auf der Kugel = möglicher Qubit-Zustand\\
+			\vspace{0.5em}
+			$|\Psi\rangle = \alpha|0\rangle + \beta|1\rangle$\\
+			{\centering mit}\\
+			$|\alpha^2| + |\beta^2| = 1 \& \alpha, \beta \in {\displaystyle\mathbb{C}}$\\
+			\vspace{0.5em}
+			Wahrscheinlichkeit:\\
+			$|0\rangle$ zu messen = $\alpha^2$\\
+			$|1\rangle$ zu messen = $\beta^2$\\
+		\end{column}
+		\begin{column}{0.39\linewidth}
+			\img{0.85\linewidth}{Kommunikation/bloch_sphere}{quantum:bloch_sphere}{Bloch-Kugel}{Bloch-Kugel}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Verschr{\"a}nkung}
+	\begin{columns}
+		\begin{column}{0.6\linewidth}
+			Zwei oder mehr Teilchen sind so miteinander verbunden (Quantensystem), dass die Messung des Zustands eines Teilchens den Zustand der anderen sofort beeinflusst, unabhängig von der Entfernung
+			\vspace{0.5em}
+			Bell‘sche Ungleichung:\\
+			$S = |E(a,b)-(a,b^{'})+E(a^{'},b)+(a^{'},b^{'})| \leq 2$\\
+			$S > 2$, dann Verschränkung
+		\end{column}
+		\begin{column}{0.4\linewidth}
+			\img{0.85\linewidth}{Kommunikation/verschraenkung}{quantum:entanglement}{Veranschaulichung von Quantenverschr{\"a}nkung}{Veranschaulichung von Quantenverschr{\"a}nkung}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%\begin{frame}{Animated GIF Example}
+%	\animategraphics[autoplay,loop,width=0.5\linewidth]{10}{figures/frames/test/frame-}{0}{5}
+%\end{frame}

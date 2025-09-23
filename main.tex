@@ -5,7 +5,24 @@
 
 \usetheme{Copenhagen} %metropolis#
 \useoutertheme{infolines}
+\setbeamertemplate{itemize item}{\color{blue}$\blacktriangleright$}
+% Enable numbering so figures go into the LoF
+\setbeamertemplate{caption}[numbered]
+
 \usecolortheme{default}
+
+% restore bullets explicitly
+\AtBeginDocument{
+	\setbeamertemplate{itemize item}{\raisebox{0.2ex}{\small$\bullet$}}
+	\setbeamertemplate{itemize subitem}{\raisebox{0.2ex}{\scriptsize$\circ$}}
+	\setbeamertemplate{itemize subsubitem}{\tiny$\triangleright$}
+	\setbeamercolor{itemize item}{fg=black}
+	\setbeamercolor{itemize subitem}{fg=black}
+	\setbeamercolor{itemize subsubitem}{fg=black}
+	\setbeamertemplate{caption}[numbered]
+	
+}
+
 
 \input{config}
 
@@ -24,15 +41,20 @@
 	\end{frame}
 	
 	\begin{frame}
-		\begin{tabular}{cc}
-			\includegraphics[scale=0.25]{figures/Communication-without-particles-pic1} &  \\
-		\end{tabular}
+		\img{0.6\textwidth}{Communication-without-particles-pic1}{start-joke}{Particle-free interaction}{Particle-free interaction}
 	\end{frame}
 	
-	\input{sections/what_is/quantum_communication}
+%	\begin{frame}{Test}
+%		\centering
+%		\animategraphics[autoplay,loop,width=0.3\linewidth]{10}{figures/frames/test/frame-}{0}{5}
+%	\end{frame}
+	
+
 	\input{sections/what_is/quantum}
-	\input{sections/basics/quantum_communication}
-	\input{sections/basics/quantum_mechanics}
+	\input{sections/what_is/quantum_mechanics}
+	\input{sections/what_is/quantum_communication}
+%	\input{sections/basics/quantum_communication}
+%	\input{sections/basics/quantum_mechanics}
 	\input{sections/advanced/quatum_teleportation_and_networks}
 	%*************************************************************************
 	% Literaturverzeichnis
@@ -46,5 +68,14 @@
 		% BibTeX:
 		\bibliography{bibliography}
 	\end{frame}
+	%*************************************************************************
+	% Abbildungsverzeichnis
+	%*************************************************************************
+	\section*{Abbildungsverzeichnis}
+	\begin{frame}[allowframebreaks]
+		\frametitle{Abbildungsverzeichnis}
+		\listoffigures
+	\end{frame}
+	
 	
 \end{document}

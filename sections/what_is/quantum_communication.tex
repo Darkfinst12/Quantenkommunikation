@@ -1,7 +1,57 @@
 \section{Was ist Quantenkommunikation?}
-\begin{frame}[allowframebreaks]
+\begin{frame}
 	\begin{theorem}
 %		\justifying
 		Quantenkommunikation ist die Nutzung der \enquote{Prinzipien der Quantenmechanik wie Quantenverschr{\"a}nkung und Quantensuperposition, um Informationen nahezu abh{\"o}rsicher zu {\"u}bertragen}.\cite{frauenhofer2025}
 	\end{theorem}
+	\pause
+	-- Nutzung von \textbf{Quantenzust{\"a}nden} (erzeugt durch Polarisation) zur\\
+		\hspace{0.5em} abh{\"o}rsicheren Nachrichten{\"u}bertragung\\
+	\vspace{0.5em}
+	-- Nutzt Superposition und Verschr{\"a}nkung\\
+	\vspace{0.5em}
+	-- Quantenschl{\"u}sselverteilung zur Erstellung eines gemeinsamen Schl{\"u}ssels\\ 
+	\vspace{0.5em}
+		\hspace{0.5em} (siehe Protokolle der Kryptographie)\\
+	-- Besondere Eigenschaft: Abh{\"o}ren ver{\"a}ndert automatisch den\\ 
+		\hspace{0.5em} Quantenzustand \textrightarrow erkennbar
 \end{frame}
+
+\subsection{Polarisation}
+\begin{frame}
+	\begin{theorem}
+		Licht besteht aus elektromagnetischen Wellen. Das elektrische Feld schwingt immer senkrecht zur Ausbreitungsrichtung. Die Richtung dieser Schwingung nennt man \textbf{Polarisation}.
+	\end{theorem}
+\end{frame}
+\begin{frame}[allowframebreaks]
+	\frametitle{Polarisationsrichtungen$^1$}
+	\framesubtitle{H ,V ,D ,A}
+%	\vspace{-2em}
+	\begin{alertblock}{Basen (Photonenzust{\"a}nde):}
+		Orthogonal: H/V – Basis (Z-Basis)\\
+			\hspace{0.5em}  H, $0^\circ$: horizontal \textrightarrow\\
+			\hspace{0.5em}  V, $90^\circ$: vertikal  \textuparrow\\
+		Schr{\"a}g: D/A – Basis (X-Basis)\\
+			\hspace{0.5em}  D, $45^\circ$: diagonal $\nearrow$\\
+			\hspace{0.5em}  A, $135^\circ$: antidiagonal $\nwarrow$\\
+	\end{alertblock}
+	\begin{myExamples}{Zustände werden als |0⟩ oder |1⟩ festgelegt}
+		z.B: H/V -- Basis \textrightarrow { }$|H\rangle = 0$, $|V\rangle = 1$
+	\end{myExamples}
+	\footnotetext[1]{lineare Polarisation}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Wie funktioniert sie?}
+	-- Erfordert Basiselemente des Quantencomputers\\
+	-- Polarisation der Schwingungsrichtungen der Photonen mittels\\
+		\hspace{0.5em} Polarisationsfilter \textrightarrow Erzeugung von Qubits\\
+	\vspace{-2.5em}
+	\hspace{9em}\animategraphics[autoplay,loop,width=0.7\linewidth]{24}{figures/Kommunikation/Polarisation/polarisation-frame-}{00}{24}\\
+	\vspace{-2.0em}
+	-- Begrenzung: Photonenabsorption in Glasfasern \textrightarrow { }ca. 100 km\\
+		\hspace{0.5em} Reichweite\\
+	-- L{\"o}sung: Quantenrepeater zur Reichweitenerhöhung \textrightarrow { }zentrales\\
+	\hspace{0.5em} Forschungsthema
+\end{frame}
+

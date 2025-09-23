@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.22)  23 SEP 2025 12:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.22)  23 SEP 2025 14:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1505,7 +1505,7 @@ Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 19.
 [11
 
 ]
-<figures/Kommunikation/superposition_schroedinger.png, id=446, 642.4pt x 688.57
+<figures/Kommunikation/superposition_schroedinger.png, id=445, 642.4pt x 688.57
 25pt>
 File: figures/Kommunikation/superposition_schroedinger.png Graphic file (type p
 ng)
@@ -1522,7 +1522,7 @@ Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 40.
 [12
 
  <./figures/Kommunikation/superposition_schroedinger.png>]
-<figures/Kommunikation/bloch_sphere.png, id=481, 803.0pt x 803.0pt>
+<figures/Kommunikation/bloch_sphere.png, id=480, 803.0pt x 803.0pt>
 File: figures/Kommunikation/bloch_sphere.png Graphic file (type png)
 <use figures/Kommunikation/bloch_sphere.png>
 Package pdftex.def Info: figures/Kommunikation/bloch_sphere.png  used on input 
@@ -1537,7 +1537,7 @@ Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 62.
 [13
 
  <./figures/Kommunikation/bloch_sphere.png>]
-<figures/Kommunikation/verschraenkung.jpg, id=515, 642.4pt x 362.35374pt>
+<figures/Kommunikation/verschraenkung.jpg, id=514, 642.4pt x 362.35374pt>
 File: figures/Kommunikation/verschraenkung.jpg Graphic file (type jpg)
 <use figures/Kommunikation/verschraenkung.jpg>
 Package pdftex.def Info: figures/Kommunikation/verschraenkung.jpg  used on inpu
@@ -1577,9 +1577,6 @@ Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 18.
 [17
 
 ]
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 25.
-
 
 File: figures/CD/DHSN-Logo.pdf Graphic file (type pdf)
 <use figures/CD/DHSN-Logo.pdf>
@@ -1589,271 +1586,272 @@ Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 25.
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 42.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 71.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 42.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 71.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 42.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 71.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 42.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 71.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 42.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 71.
 
 
 File: figures/CD/DHSN-Logo.pdf Graphic file (type pdf)
 <use figures/CD/DHSN-Logo.pdf>
-Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 42.
+Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 71.
 (pdftex.def)             Requested size: 56.9055pt x 29.26256pt.
 [19
 
 ]
-<figures/Kommunikation/Polarisation/polarisation-frame-00.png, id=717, 1284.8pt
+
+File: figures/CD/DHSN-Logo.pdf Graphic file (type pdf)
+<use figures/CD/DHSN-Logo.pdf>
+Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 71.
+(pdftex.def)             Requested size: 56.9055pt x 29.26256pt.
+[20
+
+
+]
+<figures/Kommunikation/Polarisation/polarisation-frame-00.png, id=747, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-00.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-00.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-00.png  used on input line 56.
+00.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-00.png> <a0,fr0>
-<figures/Kommunikation/Polarisation/polarisation-frame-01.png, id=721, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-01.png, id=751, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-01.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-01.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-01.png  used on input line 56.
+01.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-01.png> <a0,fr1>
-<figures/Kommunikation/Polarisation/polarisation-frame-02.png, id=725, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-02.png, id=755, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-02.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-02.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-02.png  used on input line 56.
+02.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-02.png> <a0,fr2>
-<figures/Kommunikation/Polarisation/polarisation-frame-03.png, id=729, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-03.png, id=759, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-03.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-03.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-03.png  used on input line 56.
+03.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-03.png> <a0,fr3>
-<figures/Kommunikation/Polarisation/polarisation-frame-04.png, id=733, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-04.png, id=763, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-04.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-04.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-04.png  used on input line 56.
+04.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-04.png> <a0,fr4>
-<figures/Kommunikation/Polarisation/polarisation-frame-05.png, id=737, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-05.png, id=767, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-05.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-05.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-05.png  used on input line 56.
+05.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-05.png> <a0,fr5>
-<figures/Kommunikation/Polarisation/polarisation-frame-06.png, id=741, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-06.png, id=771, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-06.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-06.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-06.png  used on input line 56.
+06.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-06.png> <a0,fr6>
-<figures/Kommunikation/Polarisation/polarisation-frame-07.png, id=745, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-07.png, id=775, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-07.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-07.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-07.png  used on input line 56.
+07.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-07.png> <a0,fr7>
-<figures/Kommunikation/Polarisation/polarisation-frame-08.png, id=749, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-08.png, id=779, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-08.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-08.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-08.png  used on input line 56.
+08.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-08.png> <a0,fr8>
-<figures/Kommunikation/Polarisation/polarisation-frame-09.png, id=753, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-09.png, id=783, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-09.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-09.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-09.png  used on input line 56.
+09.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-09.png> <a0,fr9>
-<figures/Kommunikation/Polarisation/polarisation-frame-10.png, id=757, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-10.png, id=787, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-10.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-10.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-10.png  used on input line 56.
+10.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-10.png> <a0,fr10>
-<figures/Kommunikation/Polarisation/polarisation-frame-11.png, id=761, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-11.png, id=791, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-11.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-11.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-11.png  used on input line 56.
+11.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-11.png> <a0,fr11>
-<figures/Kommunikation/Polarisation/polarisation-frame-12.png, id=765, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-12.png, id=795, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-12.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-12.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-12.png  used on input line 56.
+12.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-12.png> <a0,fr12>
-<figures/Kommunikation/Polarisation/polarisation-frame-13.png, id=769, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-13.png, id=799, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-13.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-13.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-13.png  used on input line 56.
+13.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-13.png> <a0,fr13>
-<figures/Kommunikation/Polarisation/polarisation-frame-14.png, id=773, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-14.png, id=803, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-14.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-14.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-14.png  used on input line 56.
+14.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-14.png> <a0,fr14>
-<figures/Kommunikation/Polarisation/polarisation-frame-15.png, id=777, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-15.png, id=807, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-15.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-15.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-15.png  used on input line 56.
+15.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-15.png>
 <a0,fr15>
-<figures/Kommunikation/Polarisation/polarisation-frame-16.png, id=781, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-16.png, id=811, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-16.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-16.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-16.png  used on input line 56.
+16.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-16.png>
 <a0,fr16>
-<figures/Kommunikation/Polarisation/polarisation-frame-17.png, id=785, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-17.png, id=815, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-17.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-17.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-17.png  used on input line 56.
+17.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-17.png>
 <a0,fr17>
-<figures/Kommunikation/Polarisation/polarisation-frame-18.png, id=789, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-18.png, id=819, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-18.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-18.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-18.png  used on input line 56.
+18.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-18.png>
 <a0,fr18>
-<figures/Kommunikation/Polarisation/polarisation-frame-19.png, id=793, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-19.png, id=823, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-19.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-19.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-19.png  used on input line 56.
+19.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-19.png>
 <a0,fr19>
-<figures/Kommunikation/Polarisation/polarisation-frame-20.png, id=797, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-20.png, id=827, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-20.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-20.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-20.png  used on input line 56.
+20.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-20.png>
 <a0,fr20>
-<figures/Kommunikation/Polarisation/polarisation-frame-21.png, id=801, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-21.png, id=831, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-21.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-21.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-21.png  used on input line 56.
+21.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-21.png>
 <a0,fr21>
-<figures/Kommunikation/Polarisation/polarisation-frame-22.png, id=805, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-22.png, id=835, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-22.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-22.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-22.png  used on input line 56.
+22.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-22.png>
 <a0,fr22>
-<figures/Kommunikation/Polarisation/polarisation-frame-23.png, id=810, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-23.png, id=839, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-23.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-23.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-23.png  used on input line 56.
+23.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-23.png>
 <a0,fr23>
-<figures/Kommunikation/Polarisation/polarisation-frame-24.png, id=814, 1284.8pt
+<figures/Kommunikation/Polarisation/polarisation-frame-24.png, id=843, 1284.8pt
  x 722.7pt>
 File: figures/Kommunikation/Polarisation/polarisation-frame-24.png Graphic file
  (type png)
 <use figures/Kommunikation/Polarisation/polarisation-frame-24.png>
 Package pdftex.def Info: figures/Kommunikation/Polarisation/polarisation-frame-
-24.png  used on input line 56.
+24.png  used on input line 85.
 (pdftex.def)             Requested size: 1284.79688pt x 722.69823pt.
  <./figures/Kommunikation/Polarisation/polarisation-frame-24.png>
 <a0,fr24>
 
 File: figures/CD/DHSN-Logo.pdf Graphic file (type pdf)
 <use figures/CD/DHSN-Logo.pdf>
-Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 56.
-(pdftex.def)             Requested size: 56.9055pt x 29.26256pt.
-[20
-
-]) (./sections/advanced/quatum_teleportation_and_networks.tex (./main.toc)
-
-File: figures/CD/DHSN-Logo.pdf Graphic file (type pdf)
-<use figures/CD/DHSN-Logo.pdf>
-Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 1.
+Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 85.
 (pdftex.def)             Requested size: 56.9055pt x 29.26256pt.
 [21
 
@@ -1861,9 +1859,73 @@ Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 1.
 
 File: figures/CD/DHSN-Logo.pdf Graphic file (type pdf)
 <use figures/CD/DHSN-Logo.pdf>
-Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 4.
+Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 95.
 (pdftex.def)             Requested size: 56.9055pt x 29.26256pt.
 [22
+
+]
+
+File: figures/CD/DHSN-Logo.pdf Graphic file (type pdf)
+<use figures/CD/DHSN-Logo.pdf>
+Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 99.
+(pdftex.def)             Requested size: 56.9055pt x 29.26256pt.
+[23
+
+]
+
+File: figures/CD/DHSN-Logo.pdf Graphic file (type pdf)
+<use figures/CD/DHSN-Logo.pdf>
+Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 110.
+(pdftex.def)             Requested size: 56.9055pt x 29.26256pt.
+[24
+
+]
+
+File: figures/CD/DHSN-Logo.pdf Graphic file (type pdf)
+<use figures/CD/DHSN-Logo.pdf>
+Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 114.
+(pdftex.def)             Requested size: 56.9055pt x 29.26256pt.
+[25
+
+]
+
+File: figures/CD/DHSN-Logo.pdf Graphic file (type pdf)
+<use figures/CD/DHSN-Logo.pdf>
+Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 123.
+(pdftex.def)             Requested size: 56.9055pt x 29.26256pt.
+[26
+
+]
+
+File: figures/CD/DHSN-Logo.pdf Graphic file (type pdf)
+<use figures/CD/DHSN-Logo.pdf>
+Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 127.
+(pdftex.def)             Requested size: 56.9055pt x 29.26256pt.
+[27
+
+]
+
+File: figures/CD/DHSN-Logo.pdf Graphic file (type pdf)
+<use figures/CD/DHSN-Logo.pdf>
+Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 139.
+(pdftex.def)             Requested size: 56.9055pt x 29.26256pt.
+[28
+
+]) (./sections/advanced/quatum_teleportation_and_networks.tex (./main.toc)
+
+File: figures/CD/DHSN-Logo.pdf Graphic file (type pdf)
+<use figures/CD/DHSN-Logo.pdf>
+Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 1.
+(pdftex.def)             Requested size: 56.9055pt x 29.26256pt.
+[29
+
+]
+
+File: figures/CD/DHSN-Logo.pdf Graphic file (type pdf)
+<use figures/CD/DHSN-Logo.pdf>
+Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 4.
+(pdftex.def)             Requested size: 56.9055pt x 29.26256pt.
+[30
 
 ]) (./main.toc)
 
@@ -1871,7 +1933,7 @@ File: figures/CD/DHSN-Logo.pdf Graphic file (type pdf)
 <use figures/CD/DHSN-Logo.pdf>
 Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 62.
 (pdftex.def)             Requested size: 56.9055pt x 29.26256pt.
-[23
+[31
 
 ] (./main.bbl
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
@@ -1893,7 +1955,7 @@ File: figures/CD/DHSN-Logo.pdf Graphic file (type pdf)
 <use figures/CD/DHSN-Logo.pdf>
 Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 70.
 (pdftex.def)             Requested size: 56.9055pt x 29.26256pt.
-[24
+[32
 
  </usr/local/texlive/2025/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
 
@@ -1901,7 +1963,7 @@ File: figures/CD/DHSN-Logo.pdf Graphic file (type pdf)
 <use figures/CD/DHSN-Logo.pdf>
 Package pdftex.def Info: figures/CD/DHSN-Logo.pdf  used on input line 78.
 (pdftex.def)             Requested size: 56.9055pt x 29.26256pt.
-[25
+[33
 
 ]
 \tf@nav=\write6
@@ -1922,31 +1984,31 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A806594976B3733DD577791A83823C5D;1143.
  ) 
 Here is how much of TeX's memory you used:
- 30116 strings out of 467800
- 597045 string characters out of 5431888
- 976412 words of memory out of 5000000
- 57993 multiletter control sequences out of 15000+600000
- 769412 words of font info for 134 fonts, out of 8000000 for 9000
+ 30149 strings out of 467800
+ 597406 string characters out of 5431888
+ 979412 words of memory out of 5000000
+ 58011 multiletter control sequences out of 15000+600000
+ 766610 words of font info for 133 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  128i,16n,123p,379b,831s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></
-usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
-r/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/t
-exlive/2025/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/202
-5/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2025/texmf-di
-st/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/ty
-pe1/public/lm/lmss9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/
-lm/lmssbo10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssb
-x10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><
-/usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></usr/local
-/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2
-025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (25 pages, 2523039 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></u
+sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
+/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/te
+xlive/2025/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2025
+/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2025/texmf-dis
+t/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/typ
+e1/public/lm/lmss9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/l
+m/lmssbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso1
+0.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></us
+r/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/te
+xlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (33 pages, 2521395 bytes).
 PDF statistics:
- 1142 PDF objects out of 1200 (max. 8388607)
- 906 compressed objects within 10 object streams
- 66 named destinations out of 1000 (max. 500000)
+ 1402 PDF objects out of 1440 (max. 8388607)
+ 1135 compressed objects within 12 object streams
+ 82 named destinations out of 1000 (max. 500000)
  501 words of extra memory for PDF output out of 10000 (max. 10000000)
 

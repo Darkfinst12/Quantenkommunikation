@@ -43,11 +43,17 @@
 	\frametitle{Superposition \& Qubits II}
 	\begin{definition}
 		\justifying
-		 \enquote{[A] single qubit is in a superposition of two classical bits, [...] the measurement actually only results in one classical bit of information: either 0 or 1.}\cite{Hughes2021}
+		\enquote{For our elementary coding system we choose the two-level spin system, which we will call a "quantum bit" or qubit. The qubit will be our fundamental unit of quantum information, and all signals will be encoded into sequences of qubits.}\cite{Schumacher1995}
+		\\
+		\enquote{The analogy between the bit and the qubit is obvious. The qubit is more general, since there are more possible coding states than just two (although there are only two orthogonal ones), and since a collection of qubits can exist in a nonclassically entangled quantum state.}\cite{Schumacher1995}
 	\end{definition}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Superposition \& Qubits III}
 	\begin{definition}
 		\justifying
-		\textit{Hier muss ich noch in die SLUB} -- \cite{Schumacher1995}
+		\enquote{[A] single qubit is in a superposition of two classical bits, [...] the measurement actually only results in one classical bit of information: either 0 or 1.}\cite{Hughes2021}
 	\end{definition}
 \end{frame}
 
@@ -71,6 +77,16 @@
 			\img{0.85\linewidth}{Kommunikation/bloch_sphere}{quantum:bloch_sphere}{Bloch-Kugel}{Bloch-Kugel}
 		\end{column}
 	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Bell States}
+	\begin{align*}
+		\lvert \Phi^+ \rangle &= \frac{1}{\sqrt{2}} \left( \lvert 0 \rangle_A \otimes \lvert 0 \rangle_B + \lvert 1 \rangle_A \otimes \lvert 1 \rangle_B \right) \\
+		\lvert \Phi^- \rangle &= \frac{1}{\sqrt{2}} \left( \lvert 0 \rangle_A \otimes \lvert 0 \rangle_B - \lvert 1 \rangle_A \otimes \lvert 1 \rangle_B \right) \\
+		\lvert \Psi^+ \rangle &= \frac{1}{\sqrt{2}} \left( \lvert 0 \rangle_A \otimes \lvert 1 \rangle_B + \lvert 1 \rangle_A \otimes \lvert 0 \rangle_B \right) \\
+		\lvert \Psi^- \rangle &= \frac{1}{\sqrt{2}} \left( \lvert 0 \rangle_A \otimes \lvert 1 \rangle_B - \lvert 1 \rangle_A \otimes \lvert 0 \rangle_B \right)
+	\end{align*}
 \end{frame}
 
 \begin{frame}
